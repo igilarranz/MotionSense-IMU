@@ -44,9 +44,7 @@ I also generated the Gerber and drill files and checked them in KiCad GerbView b
 
 ![MotionSense IMU schematic](schematic.png)
 
-[Open schematic PDF](MotionSense_IMU_schematic.pdf)
-
-The editable KiCad schematic is also included:
+The editable KiCad schematic is included in the repository:
 
 [View `MotionSense_IMU.kicad_sch`](MotionSense_IMU.kicad_sch)
 
@@ -57,7 +55,6 @@ The editable KiCad schematic is also included:
 ## Files
 
 - `MotionSense_IMU.kicad_sch` — schematic source
-- `MotionSense_IMU_schematic.pdf` — schematic PDF
 - `MotionSense_IMU.kicad_pcb` — PCB layout
 - `MotionSense_IMU.kicad_pro` — KiCad project
 - `BOM.csv` — bill of materials
