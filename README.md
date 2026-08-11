@@ -42,13 +42,13 @@ I also generated the Gerber and drill files and checked them in KiCad GerbView b
 
 ## Schematic
 
-[View schematic PDF](MotionSense_IMU_schematic.pdf)
+![MotionSense IMU schematic](schematic.png)
+
+[Open schematic PDF](MotionSense_IMU_schematic.pdf)
 
 The editable KiCad schematic is also included:
 
 [View `MotionSense_IMU.kicad_sch`](MotionSense_IMU.kicad_sch)
-
-The schematic includes the USB-C input stage, AP2112K-3.3 regulator, LSM6DSM IMU, I2C pull-ups, decoupling capacitors, and 5-pin breakout header. :contentReference[oaicite:0]{index=0}
 
 ## PCB Layout
 
@@ -62,6 +62,7 @@ The schematic includes the USB-C input stage, AP2112K-3.3 regulator, LSM6DSM IMU
 - `MotionSense_IMU.kicad_pro` — KiCad project
 - `BOM.csv` — bill of materials
 - `MotionSense_IMU_Rev1_Gerbers.zip` — Gerber and drill files
+- `schematic.png` — schematic preview
 - `pcb_3D.png` — 3D board render
 - `pcb_layout.png` — PCB layout screenshot
 
