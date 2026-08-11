@@ -1,0 +1,13 @@
+Reference,Value,Footprint
+C1,1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C2,1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C3,100nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C4,100nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+J1,USB_C_Receptacle_USB2.0_16P,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal
+J2,Conn_01x05,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+R1,5.1k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R2,5.1k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R3,4.7k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R4,4.7k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+U1,AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5
+U2,LSM6DSM,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y
