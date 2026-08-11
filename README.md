@@ -29,9 +29,9 @@ Board size: approximately 35 mm × 27 mm.
 
 ## Design Process
 
-I designed the board in KiCad and used Quilter and Freerouting while experimenting with component placement and routing.
+I designed the schematic and PCB in KiCad.
 
-After routing, I brought the design back into KiCad for cleanup and design-rule checking.
+For placement and routing, I experimented with Quilter and Freerouting, then brought the design back into KiCad for cleanup and design-rule checking.
 
 The final layout passes KiCad DRC with:
 
@@ -40,18 +40,36 @@ The final layout passes KiCad DRC with:
 
 I also generated the Gerber and drill files and checked them in KiCad GerbView before packaging them for fabrication.
 
+## Schematic
+
+[View schematic PDF](MotionSense_IMU_schematic.pdf)
+
+The editable KiCad schematic is also included:
+
+[View `MotionSense_IMU.kicad_sch`](MotionSense_IMU.kicad_sch)
+
+The schematic includes the USB-C input stage, AP2112K-3.3 regulator, LSM6DSM IMU, I2C pull-ups, decoupling capacitors, and 5-pin breakout header. :contentReference[oaicite:0]{index=0}
+
 ## PCB Layout
 
 ![PCB layout](pcb_layout.png)
 
 ## Files
 
+- `MotionSense_IMU.kicad_sch` — schematic source
+- `MotionSense_IMU_schematic.pdf` — schematic PDF
 - `MotionSense_IMU.kicad_pcb` — PCB layout
 - `MotionSense_IMU.kicad_pro` — KiCad project
 - `BOM.csv` — bill of materials
 - `MotionSense_IMU_Rev1_Gerbers.zip` — Gerber and drill files
-- `pcb_3D.png` — 3D render
+- `pcb_3D.png` — 3D board render
 - `pcb_layout.png` — PCB layout screenshot
+
+## Fabrication Files
+
+[Download Gerber + drill files](MotionSense_IMU_Rev1_Gerbers.zip)
+
+The fabrication package includes the top and bottom copper, solder mask, front silkscreen, board outline, and plated and non-plated drill files.
 
 ## Current Status
 
