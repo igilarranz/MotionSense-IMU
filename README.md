@@ -77,7 +77,7 @@ The 1×5 J2 header is intentionally left unpopulated and will be soldered manual
 
 The Rev 1 Gerber and drill files used for manufacturing are included in the repository.
 
-[Download Gerber + drill files](MotionSense_IMU_Rev1_Gerbers.zip)
+[Download Gerber + drill files](https://github.com/igilarranz/MotionSense-IMU/raw/refs/heads/main/MotionSense_IMU_Rev1_Gerbers.zip)
 
 ## Current Status
 
