@@ -38,11 +38,21 @@ The final design passes KiCad DRC with:
 * 0 violations
 * 0 unconnected items
 
-Gerber and drill files were also generated and inspected before manufacturing.
+Gerber and drill files were generated and inspected before manufacturing.
+
+## Schematic
+
+![MotionSense IMU Schematic](schematic.png)
+
+The schematic includes the USB-C power input, AP2112K 3.3 V regulator, LSM6DSM IMU, I2C pull-up resistors, decoupling capacitors, and J2 breakout header.
+
+The editable KiCad schematic is available in `MotionSense_IMU.kicad_sch`.
 
 ## PCB Layout
 
 ![MotionSense IMU PCB Layout](pcb_layout.png)
+
+The board is a 2-layer design with USB-C power input on one side and the I2C breakout header on the opposite side.
 
 ## Manufacturing
 
@@ -62,6 +72,12 @@ The 1×5 J2 header is intentionally left unpopulated and will be soldered manual
 * `pcb_3D.png` — 3D board render
 * `pcb_layout.png` — PCB layout image
 * `schematic.png` — schematic image
+
+## Fabrication Files
+
+The Rev 1 Gerber and drill files used for manufacturing are included in the repository.
+
+[Download Gerber + drill files](MotionSense_IMU_Rev1_Gerbers.zip)
 
 ## Current Status
 
